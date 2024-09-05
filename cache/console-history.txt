@@ -1,0 +1,17 @@
+ const totalSupply = await toke.totalSupply();
+const deployment = await deployments.get("HTokenERC20");
+const { ethers, deployments } = require("hardhat");
+> const totalSupply = await toke.totalSupply();
+> const toke = await ethers.getContractAt("HTokenERC20", deployment.address);
+> const deployment = await deployments.get("HTokenERC20");
+> const { ethers, deployments } = require("hardhat");
+const to = await ethers.getContractAt("HTokenERC20")
+const toke = await ethers.getContractAt("HTokenERC20")
+const toke = await ethers.getContract("HTokenERC20")
+const tok = await ethers.getContract("HTokenERC20")
+const { ethers } = require("hardhat");
+const tok = await ethers.getContract("HTokenERC20")
+require("ethers")
+const tok  = await ethers.getContractFactory("HTokenERC20")
+const Contract = await ethers.getContractFactory("HTokenERC20")
+name
